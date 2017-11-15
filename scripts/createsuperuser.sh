@@ -1,1 +1,1 @@
-docker-compose run web python manage.py createsuperuser
+docker-compose run --rm web python manage.py createsuperuser
